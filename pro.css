@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#demo{
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.n1{
+   font-size: 20px;
+   color: blue;
+}
+/* carousel img */
+.img1{
+  width: 1444px ;
+  height: 360 px;
+  margin: 1px 15px ;
+  padding: 4px 1px ;
+   
+
+}
+
+
+/*feature-categries*/
+.feature-categries{
+  margin: 50px 0;
+}
+.feature-categries img {
+  width: 350px;
+  padding: 20px 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.feature-categries img:hover{
+transform: scale(1.1);
+}
+ 
+
+
+/*product-top css*/
+.product-top img
+{
+    width:  258px ;
+}
+.overlay-right
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+.overlay-right .fa
+{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.overlay-right .btn-secondary
+{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.product-top:hover .overlay-right
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+
+/*--------------Product-bottom-CSS---------------*/
+
+.product-bottom .fa
+{
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.new-products
+{
+    margin: 50px 0;
+}
+
+/*-----website -------*/
+  
+.box 
+{
+    margin-top: 10px;
+    float: right;
+    width: 20%;
+    padding-left: 20px;
+} 
+
+.box img {
+    width: 85px;   
+    margin: 10px 120px;
+    padding: 0px 10px;
+}
+
+
+.text1
+{
+    margin-top: 10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+
+/*----------footer----------*/
+
+.footer
+{
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+}
+.footer h1
+{
+    font-size: 15px;
+    margin: 25px 0;
+}
+.footer p
+{
+    font-size: 12px;
+}
+.copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.fa-heart-o
+{
+    color: red;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background-color: #ccc;
+}
+.footer-image img
+{
+    width: 150px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+  
+.f{
+    text-align: center;
+}
